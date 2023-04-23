@@ -1,0 +1,130 @@
+.home{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px gray;
+    padding: 5px;
+    width:  700px;
+    height: 1500px;
+    margin-left: 150px;
+
+}
+.logout > button {
+    background-image: url("/static/images/logout.png");
+    background-size: cover;
+    background-position: center;
+    height: 90px;
+    width: 90px;
+    border: none;
+    margin-left: 600px;
+}
+
+header {
+    color: rgb(243, 115, 255);
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 25px;
+  
+}
+ 
+  
+.btn button {
+    color: white;
+    font-size: 1.5rem;
+}
+
+button {
+
+	border: none;
+	color: white;
+	margin: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#filesBtn{
+    background-color: #ff69b4;
+    height: 50px;
+    width: 105px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+#dirsBtn {
+	background-color: #4169e1;
+    height: 50px;
+    width: 105px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+#spaceBtn {
+	background-color: #4caf50;
+    height: 50px;
+    width: 105px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+#FDS{
+    display: inline-block;
+    background-color: rgb(209, 209, 209);
+    color: rgb(167, 20, 235);
+    border-radius: 4px;
+}
+.telechargement > button{
+    background-image: url("/static/images/telechargement.png");
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-left: 600px;
+    margin-top: -70px;
+}
+.search > button{
+    background-image: url("/static/images/search.png");
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    border: none;
+    margin-top: -80px;
+    margin-left: -60px;
+}
+.search > input{
+    border-radius: 40px;
+    border: 5px solid black;
+    height: 40px;
+    width: 305px;
+    margin-top: -40px;
+}
+
+#content {
+    background-color: #1a1a1a; /* fond noir */
+    color: #ffffff; /* écriture en blanc */
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    border-radius: 40px;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #000000; /* ligne noire */
+}
+  
+th {
+    background-color: #000000; /* ligne noire */
+    color: #ffffff;
+}
+  
+tr:nth-child(even) {
+    background-color: #333333; /* ligne gris foncé */
+}
+  
+
+
+
+  
