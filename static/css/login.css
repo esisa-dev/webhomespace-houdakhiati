@@ -1,0 +1,42 @@
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    color: rgb(243, 115, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #646060;
+  }
+  
+  
+  button[type=submit]:hover {
+    color: rgb(146, 7, 158);
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
