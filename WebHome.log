@@ -1137,3 +1137,181 @@
 2023-04-24 17:53:51 INFO: 127.0.0.1 - - [24/Apr/2023 17:53:51] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
 2023-04-24 17:53:51 INFO: 127.0.0.1 - - [24/Apr/2023 17:53:51] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
 2023-04-24 17:53:51 INFO: 127.0.0.1 - - [24/Apr/2023 17:53:51] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:22:54 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-24 18:22:54 INFO: [33mPress CTRL+C to quit[0m
+2023-04-24 18:22:54 INFO:  * Restarting with stat
+2023-04-24 18:22:55 WARNING:  * Debugger is active!
+2023-04-24 18:22:55 INFO:  * Debugger PIN: 580-260-873
+2023-04-24 18:22:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:57] "[32mGET /home HTTP/1.1[0m" 302 -
+2023-04-24 18:22:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:57] "GET / HTTP/1.1" 200 -
+2023-04-24 18:22:58 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:58] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2023-04-24 18:22:58 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:58] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2023-04-24 18:22:59 INFO: User khiatihouda logged in.
+2023-04-24 18:22:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-04-24 18:22:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:22:59] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:23:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:23:00] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:25:36 INFO: 127.0.0.1 - - [24/Apr/2023 18:25:36] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:27:07 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:07] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:27:07 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:27:07 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:07] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:27:07 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:07] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:27:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:08] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:27:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:08] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:27:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:27:08] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:30:22 INFO: User khiatihouda logged in.
+2023-04-24 18:30:22 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:30:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:23] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:30:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:30:59] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "GET /static/js/home.js HTTP/1.1" 200 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:00] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:22 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:22] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:23] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:31:30 INFO: User khiatihouda a telecharge un fichier.
+2023-04-24 18:31:30 INFO: Le fichier a été créé avec succès à l'emplacement /home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati/Fichier.zip.
+2023-04-24 18:31:30 INFO: 127.0.0.1 - - [24/Apr/2023 18:31:30] "GET /download HTTP/1.1" 200 -
+2023-04-24 18:32:53 INFO: User khiatihouda logged in.
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:32:53 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:53] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:32:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:32:57] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:33:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:00] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:33:18 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:18] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "GET /static/css/home.css HTTP/1.1" 200 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:19] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:20 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:20] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:33:21 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:21] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:33:23 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:23] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "GET /static/css/home.css HTTP/1.1" 200 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:38 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:38] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:40 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:40] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:33:41 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:41] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:33:43 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:43] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "GET /static/css/home.css HTTP/1.1" 200 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:56] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:33:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:57] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:33:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:33:59] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "GET /static/css/home.css HTTP/1.1" 200 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:34:08 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:08] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:34:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:10] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:34:12 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:12] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:34:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:13] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:34:24 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:24] "POST /search HTTP/1.1" 200 -
+2023-04-24 18:34:24 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:24] "GET /static/css/search.css HTTP/1.1" 200 -
+2023-04-24 18:34:40 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:40] "GET /login HTTP/1.1" 200 -
+2023-04-24 18:34:40 INFO: 127.0.0.1 - - [24/Apr/2023 18:34:40] "GET /static/css/login.css HTTP/1.1" 200 -
+2023-04-24 18:38:43 INFO:  * Detected change in '/home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati/WebHome.py', reloading
+2023-04-24 18:38:43 INFO:  * Restarting with stat
+2023-04-24 18:38:44 WARNING:  * Debugger is active!
+2023-04-24 18:38:44 INFO:  * Debugger PIN: 580-260-873
+2023-04-24 18:41:52 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-24 18:41:52 INFO: [33mPress CTRL+C to quit[0m
+2023-04-24 18:41:52 INFO:  * Restarting with stat
+2023-04-24 18:41:52 WARNING:  * Debugger is active!
+2023-04-24 18:41:52 INFO:  * Debugger PIN: 580-260-873
+2023-04-24 18:41:56 INFO: 127.0.0.1 - - [24/Apr/2023 18:41:56] "GET /login HTTP/1.1" 200 -
+2023-04-24 18:41:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:41:57] "GET /static/css/login.css HTTP/1.1" 200 -
+2023-04-24 18:41:57 INFO: 127.0.0.1 - - [24/Apr/2023 18:41:57] "GET /static/js/login.js HTTP/1.1" 200 -
+2023-04-24 18:41:59 INFO: User khiatihouda logged in.
+2023-04-24 18:41:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:41:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-04-24 18:41:59 INFO: 127.0.0.1 - - [24/Apr/2023 18:41:59] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/css/home.css HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/js/home.js HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/images/logout.png HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/images/telechargement.png HTTP/1.1" 200 -
+2023-04-24 18:42:00 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:00] "GET /static/images/search.png HTTP/1.1" 200 -
+2023-04-24 18:42:10 INFO: User khiatihouda logged out.
+2023-04-24 18:42:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-04-24 18:42:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:10] "GET /login HTTP/1.1" 200 -
+2023-04-24 18:42:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:10] "GET / HTTP/1.1" 200 -
+2023-04-24 18:42:11 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:11] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2023-04-24 18:42:11 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2023-04-24 18:42:12 INFO: User khiatihouda logged in.
+2023-04-24 18:42:12 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-04-24 18:42:12 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:12] "GET /home HTTP/1.1" 200 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/js/home.js HTTP/1.1[0m" 304 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/images/logout.png HTTP/1.1[0m" 304 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/images/telechargement.png HTTP/1.1[0m" 304 -
+2023-04-24 18:42:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:13] "[36mGET /static/images/search.png HTTP/1.1[0m" 304 -
+2023-04-24 18:42:15 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:15] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:42:16 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:16] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:42:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:19] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:42:19 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:19] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:42:21 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:21] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:42:29 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:29] "POST /search HTTP/1.1" 200 -
+2023-04-24 18:42:29 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:29] "GET /static/css/search.css HTTP/1.1" 200 -
+2023-04-24 18:42:34 INFO: User khiatihouda a telecharge un fichier.
+2023-04-24 18:42:47 INFO: 127.0.0.1 - - [24/Apr/2023 18:42:47] "GET /static/js/search.js HTTP/1.1" 200 -
+2023-04-24 18:43:01 INFO: 127.0.0.1 - - [24/Apr/2023 18:43:01] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:43:02 INFO: 127.0.0.1 - - [24/Apr/2023 18:43:02] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:43:04 INFO: 127.0.0.1 - - [24/Apr/2023 18:43:04] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:43:08 INFO: User khiatihouda a telecharge un fichier.
+2023-04-24 18:43:09 INFO: Le fichier a été créé avec succès à l'emplacement /home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati/Fichier.zip.
+2023-04-24 18:43:09 INFO: 127.0.0.1 - - [24/Apr/2023 18:43:09] "GET /download HTTP/1.1" 200 -
+2023-04-24 18:44:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:10] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:44:10 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:10] "GET /space HTTP/1.1" 200 -
+2023-04-24 18:44:12 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:12] "GET /dirs HTTP/1.1" 200 -
+2023-04-24 18:44:13 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:13] "GET /files HTTP/1.1" 200 -
+2023-04-24 18:44:15 INFO: User khiatihouda a telecharge un fichier.
+2023-04-24 18:44:17 INFO: User khiatihouda a telecharge un fichier.
+2023-04-24 18:44:17 INFO: Le fichier a été créé avec succès à l'emplacement /home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati/Fichier.zip.
+2023-04-24 18:44:17 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:17] "GET /download HTTP/1.1" 200 -
+2023-04-24 18:44:52 INFO: 127.0.0.1 - - [24/Apr/2023 18:44:52] "GET /space HTTP/1.1" 200 -
+2023-04-24 21:26:22 ERROR: Une erreur s'est produite lors de la création du fichier ZIP: [Errno 28] No space left on device
+2023-04-24 21:26:22 ERROR: Une erreur s'est produite lors de la création du fichier ZIP: [Errno 28] No space left on device
+2023-04-24 21:26:22 INFO: 127.0.0.1 - - [24/Apr/2023 21:26:22] "GET /download HTTP/1.1" 200 -
+2023-04-24 21:26:22 INFO: 127.0.0.1 - - [24/Apr/2023 21:26:22] "GET /download HTTP/1.1" 200 -

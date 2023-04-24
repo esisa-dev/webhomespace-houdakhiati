@@ -63,7 +63,7 @@ button {
 #FDS{
     display: inline-block;
     background-color: rgb(209, 209, 209);
-    color: rgb(167, 20, 235);
+    color: rgb(87, 15, 121);
     border-radius: 4px;
 }
 .telechargement > button{
@@ -95,8 +95,8 @@ button {
 }
 
 #content {
-    background-color: #1a1a1a; /* fond noir */
-    color: #ffffff; /* écriture en blanc */
+    background-color: #1a1a1a;
+    color: #ffffff; 
     font-size: 16px;
     line-height: 1.5;
     padding: 20px;
@@ -112,16 +112,16 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
-    border-bottom: 1px solid #000000; /* ligne noire */
+    border-bottom: 1px solid #000000;
 }
   
 th {
-    background-color: #000000; /* ligne noire */
+    background-color: #000000;
     color: #ffffff;
 }
   
 tr:nth-child(even) {
-    background-color: #333333; /* ligne gris foncé */
+    background-color: #333333; 
 }
   
 

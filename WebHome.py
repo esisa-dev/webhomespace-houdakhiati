@@ -35,10 +35,10 @@ def login():
                         logging.info(f"User {username} logged in.")
                         return redirect('/home')
                 logging.warning(f"Echec de la tentative de connexion pour l'utilisateur {username}")
-                session.pop('username', None)  # Supprimer les informations d'identification de la session
+                session.pop('username', None)  
                 return "Nom d'utilisateur et/ou mot de passe incorrect."
         logging.warning(f"Echec de la tentative de connexion pour l'utilisateur {username}")
-        session.pop('username', None)  # Supprimer les informations d'identification de la session
+        session.pop('username', None)  
         return "Nom d'utilisateur et/ou mot de passe incorrect."
     return render_template('login.html')
 
@@ -147,8 +147,6 @@ def dirs():
 def space():
     if 'username' in session:
         home_dir = f"/home/{session['username']}"
-        
-        # utiliser la commande système 'du' pour obtenir la taille totale du répertoire personnel
         process = subprocess.Popen(['du','-sh', home_dir], stdout=subprocess.PIPE)
         output, error = process.communicate()
         total_size = output.decode('utf-8').split()[0]
@@ -191,7 +189,7 @@ def download():
     if 'username' in session:
         logging.info(f"User {session['username']} a telecharge un fichier.")
         home_dir = f"/home/{session['username']}"
-        zip_path = "/home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati"
+        zip_path = "/home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati/Fichier.zip"
         
         try:
             with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zip_file:
@@ -204,7 +202,7 @@ def download():
                         zip_file.write(os.path.join(root, dir))
         
             logging.info(f"Le fichier a été créé avec succès à l'emplacement {zip_path}.")
-            return send_file(zip_path, as_attachment=True)
+            return "Téléchargement a été effectué avec succès"
         
         except Exception as e:
             logging.error(f"Une erreur s'est produite lors de la création du fichier ZIP: {str(e)}")
