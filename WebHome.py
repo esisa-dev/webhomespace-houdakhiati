@@ -159,37 +159,39 @@ def space():
       
 @app.route('/search', methods=['GET', 'POST'])
 def search():
-    if 'username' in session:
-        if request.method == 'POST':
-            search_type = request.form['search_type']
-            search_term = request.form['search_term']
-            home_dir = f"/home/{session['username']}"
+    if request.method == 'POST':
+        query = request.form.get('search')
+        path = f"/home/khiatihouda"
+        files_and_dirs = []
 
-            results = []
-            if search_type == 'name':
-                for root, dirs, files in os.walk(home_dir):
-                    for file in files:
-                        if search_term in file:
-                            results.append(os.path.join(root, file))
-            elif search_type == 'extension':
-                for root, dirs, files in os.walk(home_dir):
-                    for file in files:
-                        if file.endswith(search_term):
-                            results.append(os.path.join(root, file))
+        for filename in os.listdir(path):
+            if query in filename:
+                file_path = os.path.join(path, filename)
+                if os.path.isfile(file_path):
+                    files_and_dirs.append({
+                        'name': f'"/file?path={file_path}">{filename}',
+                        'type': 'file',
+                        'size': os.path.getsize(file_path)
+                    })
+                elif os.path.isdir(file_path):
+                    files_and_dirs.append({
+                        'name': f'"/home?path={file_path}">{filename}',
+                        'type': 'directory',
+                        'size': os.path.getsize(file_path)
+                    })
 
-            return redirect(url_for('search', results=results))
-        else:
-            results = request.args.get('results', [])
-            return render_template('search.html', username=session['username'], results=results)
+
+        return render_template('search.html', query=query, files_and_dirs=files_and_dirs)
     else:
         return redirect(url_for('login'))
-  
+
+   
 @app.route('/download')
 def download():
     if 'username' in session:
         logging.info(f"User {session['username']} a telecharge un fichier.")
         home_dir = f"/home/{session['username']}"
-        zip_path = "C:/Users/ENVY/github-classroom/esisa-dev/webhomespace-houdakhiati/fichier.zip"
+        zip_path = "/home/khiatihouda/github-classroom/esisa-dev/webhomespace-houdakhiati"
         
         try:
             with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zip_file:

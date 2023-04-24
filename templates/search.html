@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Résultats de recherche</title>
+    <link rel="stylesheet" href="/static/css/search.css">
+</head>
+<body>
+    <div class="search">
+        <h1>Résultats de recherche pour "{{query}}"</h1>
+        <div id="content" >
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Nom du fichier</th>
+                        <th rowspan="2">Type</th>
+                        <th rowspan="2">Taille</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if files_and_dirs %}
+                        {% for item in files_and_dirs %}
+                            <tr>
+                                <td>{{ item.name }}</a></td>
+                                <td>{{ item.type }}</td>
+                                <td>{{ item.size }} octets</td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="3">Aucun résultat trouvé.</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

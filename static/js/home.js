@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error(error);
       });
   });
+  /*
   const downloadButton = document.getElementById(".telechargement button");
   const messageDiv = document.getElementById("FDS");
   
@@ -63,4 +64,4 @@ document.addEventListener("DOMContentLoaded", function() {
     const message = await response.text();
     messageDiv.innerHTML = message;
   });
-
+*/

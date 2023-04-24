@@ -4,6 +4,7 @@
 <head>
 	<title>Ma page web</title>
     <link rel="stylesheet" href="/static/css/home.css">
+    <script src="/static/js/search.js"></script>
 </head>
 <body>
     <div class="home">
@@ -16,14 +17,19 @@
             <button id="dirsBtn">Dirs</button>
             <button id="spaceBtn">Space</button>
         </div>
+        <div id="FDS"></div>
+        <!-- #region 
         <div class="telechargement">
             <button></button>
         </div>
+-->
         <div class="search">
-            <input type="text" placeholder="Rechercher...">
-            <button></button>
-          </div>
-        <div id="FDS"></div>
+            <form method="POST" action="/search">
+                <input type="text" name="search" placeholder="Rechercher...">
+                <button type="submit"></button>
+            </form>
+        </div>
+
         <div id="content">
             {% if files %}
             <table>
@@ -52,3 +58,5 @@
     <script src="/static/js/home.js"></script>
 </body>
 </html>
+
+

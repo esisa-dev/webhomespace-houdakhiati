@@ -4,7 +4,7 @@
     padding: 5px;
     width:  700px;
     height: 1500px;
-    margin-left: 150px;
+    margin-left: 900px;
 
 }
 .logout > button {
@@ -18,7 +18,7 @@
 }
 
 header {
-    color: rgb(243, 115, 255);
+    color: rgb(240, 69, 255);
     margin-left: 100px;
     font-weight: bold;
     font-size: 25px;
@@ -76,22 +76,22 @@ button {
     margin-left: 600px;
     margin-top: -70px;
 }
-.search > button{
+.search button{
     background-image: url("/static/images/search.png");
     background-size: cover;
     background-position: center;
-    height: 35px;
+    height: 30px;
     width: 35px;
     border: none;
     margin-top: -80px;
     margin-left: -60px;
 }
-.search > input{
+.search input{
     border-radius: 40px;
     border: 5px solid black;
     height: 40px;
     width: 305px;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 #content {
